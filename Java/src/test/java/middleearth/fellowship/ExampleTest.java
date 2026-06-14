@@ -1,13 +1,13 @@
 package middleearth.fellowship;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 class ExampleTest {
 
-    @Test
-    void addition() {
-        assertEquals(2, 1 + 1);
-    }
+  @Test
+  void addition() {
+    assertEquals(2, 1 + 1);
+  }
 }
