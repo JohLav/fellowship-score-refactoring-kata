@@ -15,8 +15,8 @@
         <maven.maven-compiler-plugin.version>3.15.0</maven.maven-compiler-plugin.version>
         <maven.maven-surefire-plugin.version>3.2.5</maven.maven-surefire-plugin.version>
         <jacoco.version>0.8.15</jacoco.version>
-        <spotless.version>2.43.0</spotless.version>
-        <google-java-format.version>1.22.0</google-java-format.version>
+        <spotless.version>3.6.0</spotless.version>
+        <google-java-format.version>1.25.2</google-java-format.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
