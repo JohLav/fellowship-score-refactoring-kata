@@ -34,6 +34,7 @@ Les règles sont évaluées dans l'ordre. La première règle qui s'applique est
 ### ×1.5 — Membre du Conseil, non Porteur d'Anneau, béni par les Valar
 
 S'applique aux **membres du Conseil** :
+
 - `race` = `homme` (ou `hobbit`/`nain`) avec `battles_fought` ≤ 9, `status` ≠ `corrupted`, `status` ≠ `ring_bearer`
 - OU `race` = `elfe` (ou `hobbit`/`nain`) avec `combat_class` = `cavalier` ou `archer` et `battles_fought` ≥ 5, `status` ≠ `ring_bearer`
 
@@ -42,6 +43,7 @@ ET béni par les Valar : `blessed_by_valar` = 1
 ### ×2.5 — Porteur d'Anneau béni par les Valar
 
 S'applique aux **guerriers confirmés porteurs d'Anneau** :
+
 - `race` = `elfe` (ou `hobbit`/`nain`) avec `combat_class` = `cavalier` ou `archer` et `battles_fought` ≥ 5
 - ET `status` = `ring_bearer`
 
@@ -50,12 +52,14 @@ ET béni par les Valar : `blessed_by_valar` = 1
 ### ×2 — Porteur d'Anneau à résistance prouvée
 
 S'applique aux **mêmes guerriers confirmés porteurs d'Anneau** (même critère de race/classe/batailles que ×2.5) :
+
 - ET `status` = `ring_bearer`
 - ET résistance mesurée selon la norme Valar : `resistance_norm` = `valar_standard` ET (`corruption_resistance` ≤ 50 OU `power_source` ∈ {`light`, `mithril`, `lembas`})
 
 ### ×2.5 — Membre hors Conseil béni par les Valar
 
 S'applique aux **membres hors Conseil** :
+
 - `race` = `elfe` (ou `hobbit`/`nain`) avec `combat_class` ≠ `cavalier` ET ≠ `archer`
 - OU `race` = `elfe` (ou `hobbit`/`nain`) avec `combat_class` = `cavalier` ou `archer` mais `battles_fought` < 5
 
@@ -64,11 +68,13 @@ ET béni par les Valar : `blessed_by_valar` = 1
 ### ×2 — Membre hors Conseil à résistance prouvée
 
 S'applique aux **mêmes membres hors Conseil** (même critère que ×2.5) :
+
 - ET résistance mesurée selon la norme Valar : `resistance_norm` = `valar_standard` ET (`corruption_resistance` ≤ 50 OU `power_source` ∈ {`light`, `mithril`, `lembas`})
 
 ### ×1 — Membre du Conseil, non Porteur d'Anneau, à résistance prouvée
 
 S'applique aux **mêmes membres du Conseil non porteurs d'Anneau** (même critère que ×1.5) :
+
 - ET résistance mesurée selon la norme Valar : `resistance_norm` = `valar_standard` ET (`corruption_resistance` ≤ 50 OU `power_source` ∈ {`light`, `mithril`, `lembas`})
 
 ---
