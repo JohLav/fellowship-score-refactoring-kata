@@ -6,5 +6,7 @@
  * @returns Fiches avec combat_power calculé
  */
 export interface FellowshipScoringInterface {
-    computeScores(data: Record<string, Record<number, Record<string, unknown>>>): Record<string, Record<number, Record<string, unknown>>>;
+  computeScores(
+    data: Record<string, Record<number, Record<string, unknown>>>
+  ): Record<string, Record<number, Record<string, unknown>>>;
 }
