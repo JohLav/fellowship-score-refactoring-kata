@@ -75,7 +75,6 @@ S'applique aux **mêmes membres du Conseil non porteurs d'Anneau** (même critè
 
 ## Contraintes
 
-- Ne pas modifier l'interface `FellowshipScoringInterface`.
 - L'ordre d'évaluation des règles est défini par le Conseil et ne peut pas être modifié.
 
 ---
