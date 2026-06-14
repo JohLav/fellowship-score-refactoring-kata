@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MiddleEarth\Fellowship;
+namespace Fellowship;
 
 class FellowshipMemberCombatScoreService implements FellowshipScoringInterface
 {

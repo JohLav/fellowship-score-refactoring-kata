@@ -1,4 +1,4 @@
-package middleearth.fellowship;
+package fellowship;
 
 import java.util.Map;
 

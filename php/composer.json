@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MiddleEarth\\Fellowship\\": "src/"
+            "Fellowship\\": "src/"
         }
     },
     "autoload-dev": {
